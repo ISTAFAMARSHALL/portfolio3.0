@@ -15,7 +15,7 @@ export default function AboutMeSection() {
                     Recent accomplishment: Successfully built a website from the ground up to launch a client's weekly luncheon initiative.
                 </p> */}
                 <p className={styles.highlight}>
-                    Recent accomplishment: Successfully built website to launch a client's weekly luncheon initiative, <a href="https://example.com" className={styles.siteLink} target="_blank" rel="noopener noreferrer">More Than Just a Lunch</a>
+                    Recent accomplishment: Successfully built website to launch a client&apos;s weekly luncheon initiative, <a href="https://example.com" className={styles.siteLink} target="_blank" rel="noopener noreferrer">More Than Just a Lunch</a>
                 </p>
                 <a href="/resume.pdf" download className={styles.link}>
                     Learn more about me

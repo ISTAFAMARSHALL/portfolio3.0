@@ -1,5 +1,5 @@
 import React from "react";
-import profileIMG from "@/public/images/profile/C65EE828-4A30-462F-97EB-20BD146599E1_4_5005_c.jpeg"
+import profileIMG from "@/public/images/profile/C65EE828-4A30-462F-97EB-20BD146599E1_4_5005_c.jpeg";
 import styles from "./page.module.css";
 import Image from "next/image";
 
@@ -61,7 +61,7 @@ export default function AboutMe() {
         <div className={styles.text}>
           <p>
             From a young age, I was captivated by technology. Whether it was
-            setting up my grandfather's new gadgets or fixing electronic
+            setting up my grandfather&apos;s new gadgets or fixing electronic
             devices, I was always the go-to tech enthusiast.
           </p>
           <p>

@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       {/* Branding */}
       <div>
-        <a href='/' className={styles.logo}>Code By Istafa</a>
+        <a href='..' className={styles.logo}>Code By Istafa</a>
       </div>
 
       {/* Social Links

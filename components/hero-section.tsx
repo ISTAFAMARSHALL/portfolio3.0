@@ -1,5 +1,3 @@
-import HeroImage from "@/public/images/hero-section/hero-image2.png";
-import Image from "next/image";
 import styles from "./hero-section.module.css";
 
 export default function HeroSection() {

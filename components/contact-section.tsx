@@ -1,5 +1,5 @@
 import styles from "./contact-section.module.css";
-import { FaLinkedin, FaGithub, FaTwitter, FaMedium } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaMedium } from "react-icons/fa";
 
 export default function ContactSection() {
 

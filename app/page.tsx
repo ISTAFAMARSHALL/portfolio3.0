@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 import HeroSection from "@/components/hero-section";
 import AboutMeSection from "@/components/about-me-section";
