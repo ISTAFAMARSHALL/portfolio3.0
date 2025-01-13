@@ -28,12 +28,12 @@ export default function PortfolioHighlights() {
                             A responsive website designed to launch a weekly luncheon initiative.
                         </p>
                         <div className={styles.projectLinks}>
-                            <a
+                            <Link
                                 href="/portfolio/more-than-just-a-lunch-app"
                                 className={styles.projectLink}
                             >
                                 Live Demo
-                            </a>
+                            </Link>
                             <a
                                 href="https://github.com/your-repo/more-than-just-a-lunch"
                                 target="_blank"
@@ -60,9 +60,9 @@ export default function PortfolioHighlights() {
                             A modern e-commerce platform with intuitive navigation and sleek design.
                         </p>
                         <div className={styles.projectLinks}>
-                            <a href="/portfolio/smart-buy" className={styles.projectLink}>
+                            <Link href="/portfolio/smart-buy" className={styles.projectLink}>
                                 Live Demo
-                            </a>
+                            </Link>
                             <a
                                 href="https://github.com/your-repo/smart-buy"
                                 target="_blank"
@@ -89,9 +89,9 @@ export default function PortfolioHighlights() {
                             A streamlined task and inventory management system.
                         </p>
                         <div className={styles.projectLinks}>
-                            <a href="/portfolio/stims" className={styles.projectLink}>
+                            <Link href="/portfolio/stims" className={styles.projectLink}>
                                 Live Demo
-                            </a>
+                            </Link>
                             <a
                                 href="https://github.com/your-repo/stims"
                                 target="_blank"
