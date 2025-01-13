@@ -77,7 +77,7 @@ export default function ImageSlideShow (props) {
         }, 5000);
 
         return () => clearInterval(interval);
-    }, []);
+    }, [selectedProjectsImgs.length]);
 
     let selectedProjectsImgs = allImgs.filter((item) => item.alt.includes(props.slug.split('-').shift()));
 

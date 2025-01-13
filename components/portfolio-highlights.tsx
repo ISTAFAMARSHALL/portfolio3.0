@@ -1,9 +1,11 @@
 import styles from "./portfolio-highlights.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 import smartBuyImg from "@/public/images/projects/smart-buy/SmartBuy Screenshot .jpeg";
 import stimsImg from "@/public/images/projects/stims/S.T.I.M.S Screenshot .jpeg";
 import moreThanJustaLunchImg from "@/public/images/projects/more-than-just-a-lunch/More than Just a Lunch IMG 1.png";
+
 
 export default function PortfolioHighlights() {
     return (
@@ -27,7 +29,7 @@ export default function PortfolioHighlights() {
                         </p>
                         <div className={styles.projectLinks}>
                             <a
-                                href="/projects/more-than-just-a-lunch-app"
+                                href="/portfolio/more-than-just-a-lunch-app"
                                 className={styles.projectLink}
                             >
                                 Live Demo
@@ -58,7 +60,7 @@ export default function PortfolioHighlights() {
                             A modern e-commerce platform with intuitive navigation and sleek design.
                         </p>
                         <div className={styles.projectLinks}>
-                            <a href="/projects/smart-buy" className={styles.projectLink}>
+                            <a href="/portfolio/smart-buy" className={styles.projectLink}>
                                 Live Demo
                             </a>
                             <a
@@ -87,7 +89,7 @@ export default function PortfolioHighlights() {
                             A streamlined task and inventory management system.
                         </p>
                         <div className={styles.projectLinks}>
-                            <a href="/projects/stims" className={styles.projectLink}>
+                            <a href="/portfolio/stims" className={styles.projectLink}>
                                 Live Demo
                             </a>
                             <a
@@ -101,9 +103,10 @@ export default function PortfolioHighlights() {
                         </div>
                     </div>
                 </div>
-                <a href="/portfolio" className={styles.viewAllButton}>
+                <Link href="/portfolio" className={styles.viewAllButton}>
                     View All Projects
-                </a>
+                </Link>
+                
             </div>
         </section>
     );
